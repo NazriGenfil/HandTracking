@@ -30,7 +30,6 @@ while True:
                 if id == 8:
                     cv2.circle(img, (cx, cy), 15, (255, 0, 255), cv2.FILLED)
 
-
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
     cTime = time.time()
